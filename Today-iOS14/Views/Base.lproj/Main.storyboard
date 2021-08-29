@@ -60,6 +60,10 @@
                                         <constraint firstItem="290-2J-Ejz" firstAttribute="top" secondItem="SNq-M4-aJm" secondAttribute="bottom" constant="4" id="yL1-fI-jWD"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dateLabel" destination="290-2J-Ejz" id="uxd-c5-gYR"/>
+                                    <outlet property="titleLabel" destination="SNq-M4-aJm" id="YxO-i3-wdu"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
